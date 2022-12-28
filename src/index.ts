@@ -308,4 +308,8 @@ export function scanBarcodes(
   return __scanCodes(frame, types, options);
 }
 
+export function bcTest(): string {
+  return 'barcode';
+}
+
 export * from './hook';
