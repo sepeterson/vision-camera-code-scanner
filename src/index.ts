@@ -309,6 +309,7 @@ export function scanBarcodes(
 }
 
 export function bcTest(): string {
+  'worklet';
   return 'barcode';
 }
 
